@@ -4,6 +4,7 @@ Tricks that can be done with urls of popular sites. Currently, under development
 
 ## Examples of How To Use
 
+
 ## Developer
 
 Name: [Banura Randika Perera](https://github.com/randikabanura) <br/>
