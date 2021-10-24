@@ -1,5 +1,5 @@
 """
-This module implements the main functionality of url tricks.
+This module implements the main functionality of url tricks for python package.
 Author: Banura Randika Perera
 Gothub: https://github.com/randikabanura
 """
