@@ -1,6 +1,6 @@
 # Url Tricks
 
-Tricks that can be done with urls of popular sites
+Tricks that can be done with urls of popular sites. Currently, under development.
 
 ## Developer
 
