@@ -21,7 +21,7 @@ class GoogleUrlTricks:
 
     def downloadable_drive_link(self, url: str):
         """
-        Gives a downloadable url of a shared link in google drive
+        Gives a downloadable url of a shared link in Google Drive
         :param url: Should a string and the link of a shared resource in google drive
         :return: if successful will return downloadable url , otherwise None
         """
