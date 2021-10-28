@@ -29,5 +29,5 @@ class GoogleUrlTricks:
         try:
             resource_id = url.split("/")[5]
             return f"https://drive.google.com/uc?id={resource_id}"
-        except RuntimeError:
+        except (RuntimeError, IndexError):
             return None
