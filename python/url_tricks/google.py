@@ -23,7 +23,7 @@ class GoogleUrlTricks:
         """
         Gives a downloadable url of a shared link in Google Drive
         :param url: Should a string and the link of a shared resource in google drive
-        :return: if successful will return downloadable url , otherwise None
+        :return: if successful will return downloadable url, otherwise None
         """
 
         try:
