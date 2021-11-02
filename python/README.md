@@ -1,4 +1,4 @@
-# Url Tricks (Python Package)
+# URL Tricks (Python Package)
 
 Tricks that can be done with urls of popular sites. Currently, under development.
 
@@ -13,6 +13,17 @@ Tricks that can be done with urls of popular sites. Currently, under development
 from url_tricks import GoogleUrlTricks
 gut = GoogleUrlTricks()
 gut.downloadable_drive_link("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing"
+
+```
+
+#### Google Docs Previewable URL
+
+```pycon
+# Gives a previewable url of a shared url in Google Docs
+
+from url_tricks import GoogleUrlTricks
+gut = GoogleUrlTricks()
+gut.previewable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit"
 
 ```
 
