@@ -8,11 +8,11 @@ Tricks that can be done with urls of popular sites. Currently, under development
 #### Google Drive downloadable link
 
 ```pycon
-# Gives a downloadable url of a shared link in Google Drive
+# Gives a downloadable url of a shared url in Google Drive
 
 from url_tricks import GoogleUrlTricks
 gut = GoogleUrlTricks()
-gut.downloadable_drive_link("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing"
+gut.downloadable_drive_url("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing"
 
 ```
 
