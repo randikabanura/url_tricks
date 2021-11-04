@@ -45,3 +45,17 @@ class GoogleUrlTricks:
             return f"{main_url}/preview"
         except (RuntimeError, IndexError):
             return None
+
+    def templatable_docs_url(self, url: str):
+        """
+        Gives a templatable url form the docs url
+        :param url: Should be a string and the url of a shared resource in google docs
+        :return: if successful will return templatable url, otherwise None
+        """
+
+        try:
+            split_url = url.split("/")
+            main_url = "/".join(split_url[:6])
+            return f"{main_url}/template/preview"
+        except (RuntimeError, IndexError):
+            return None
