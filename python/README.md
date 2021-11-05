@@ -5,7 +5,7 @@ Tricks that can be done with urls of popular sites. Currently, under development
 ## Examples of How To Use
 
 ### Google
-#### Google Drive downloadable link
+#### Google Drive Downloadable URL
 
 ```pycon
 # Gives a downloadable url of a shared url in Google Drive
