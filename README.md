@@ -1,4 +1,4 @@
-# Url Tricks
+# URL Tricks
 
 Tricks that can be done with urls of popular sites. Currently, under development.
 
