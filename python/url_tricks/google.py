@@ -59,3 +59,18 @@ class GoogleUrlTricks:
             return f"{main_url}/template/preview"
         except (RuntimeError, IndexError):
             return None
+
+    def exportable_docs_url(self, url: str, export_type: str = "pdf"):
+        """
+        Gives a exportable url form the docs url
+        :param export_type: Type of the export needed such as pdf, docx and odt, Default is "pdf"
+        :param url: Should be a string and the url of a shared resource in google docs
+        :return: if successful will return exportable url, otherwise None
+        """
+
+        try:
+            split_url = url.split("/")
+            main_url = "/".join(split_url[:6])
+            return f"{main_url}/export?format={export_type}"
+        except (RuntimeError, IndexError):
+            return None
