@@ -38,6 +38,18 @@ gut.templatable_docs_url("https://docs.google.com/document/d/<some_code_from_goo
 
 ```
 
+#### Google Docs Templatable URL
+
+```pycon
+# Gives a templatable url of a shared url in Google Docs
+
+from url_tricks import GoogleUrlTricks
+gut = GoogleUrlTricks()
+
+# Some possible values for "export_type" is "pdf", "odt" and "docx"
+gut.exporable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit", "odt")
+
+```
 
 ## Developer
 
