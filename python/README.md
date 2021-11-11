@@ -23,7 +23,7 @@ gut.downloadable_drive_url("https://drive.google.com/file/d/<some_code_from_goog
 
 from url_tricks import GoogleUrlTricks
 gut = GoogleUrlTricks()
-gut.previewable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit"
+gut.previewable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit")
 
 ```
 
@@ -34,7 +34,7 @@ gut.previewable_docs_url("https://docs.google.com/document/d/<some_code_from_goo
 
 from url_tricks import GoogleUrlTricks
 gut = GoogleUrlTricks()
-gut.templatable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit"
+gut.templatable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit")
 
 ```
 
