@@ -41,7 +41,7 @@ gut.templatable_docs_url("https://docs.google.com/document/d/<some_code_from_goo
 #### Google Docs Exportable URL
 
 ```pycon
-# Gives a exportable url of a shared url in Google Docs
+# Gives a exportable url of a shared url in Google Docs / Google Sheets
 
 from url_tricks import GoogleUrlTricks
 gut = GoogleUrlTricks()
