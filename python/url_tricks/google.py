@@ -74,3 +74,9 @@ class GoogleUrlTricks:
             return f"{main_url}/export?format={export_type}"
         except (RuntimeError, IndexError):
             return None
+
+    def exportable_sheets_url(self, url: str, export_type: str = "pdf"):
+        """
+        Alias method to call "exportable_docs_url" method
+        """
+        self.exportable_docs_url(url, export_type)
