@@ -47,7 +47,8 @@ from url_tricks import GoogleUrlTricks
 gut = GoogleUrlTricks()
 
 # Some possible values for "export_type" is "pdf", "odt" and "docx"
-gut.exporable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit", "odt")
+# exportable_sheets_url would do the same functionality
+gut.exportable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit", "odt")
 
 ```
 
