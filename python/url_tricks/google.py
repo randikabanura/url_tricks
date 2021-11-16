@@ -32,6 +32,19 @@ class GoogleUrlTricks:
         except (RuntimeError, IndexError):
             return None
 
+    def web_viewer_drive_url(self, url: str):
+        """
+        Gives a web viewer url of a shared url in Google Drive
+        :param url: Should be a string and the url of a shared resource in google drive
+        :return: if successful will return web viewer  url, otherwise None
+        """
+
+        try:
+            resource_id = url.split("/")[5]
+            return f"https://docs.google.com/viewer?url={resource_id}"
+        except (RuntimeError, IndexError):
+            return None
+
     def previewable_docs_url(self, url: str):
         """
         Gives a previewable url form the docs url
