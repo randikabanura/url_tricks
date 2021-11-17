@@ -16,6 +16,17 @@ gut.downloadable_drive_url("https://drive.google.com/file/d/<some_code_from_goog
 
 ```
 
+#### Google Drive Web Viewer URL
+
+```pycon
+# Gives a web viewer url of a shared url in Google Drive
+
+from url_tricks import GoogleUrlTricks
+gut = GoogleUrlTricks()
+gut.web_viewer_drive_url("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing"
+
+```
+
 #### Google Docs Previewable URL
 
 ```pycon
