@@ -2,6 +2,11 @@
 
 Tricks that can be done with urls of popular sites. Currently, under development.
 
+## Have Plans do build the following:
+
+- [ ] Python Package
+- [ ] Ruby Gem
+
 ## Developer
 
 Name: [Banura Randika Perera](https://github.com/randikabanura) <br/>
