@@ -7,6 +7,7 @@ Tricks that can be done with urls of popular sites. Currently, under development
 - [ ] Python Package
 - [ ] Ruby Gem
 - [ ] Javascript Package
+- [ ] Website
 
 ## Developer
 
