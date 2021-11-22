@@ -7,7 +7,7 @@ Tricks that can be done with urls of popular sites. Currently, under development
 ### Google
 #### Google Drive Downloadable URL
 
-```pycon
+```python
 # Gives a downloadable url of a shared url in Google Drive
 
 from url_tricks import GoogleUrlTricks
@@ -18,7 +18,7 @@ gut.downloadable_drive_url("https://drive.google.com/file/d/<some_code_from_goog
 
 #### Google Drive Web Viewer URL
 
-```pycon
+```python
 # Gives a web viewer url of a shared url in Google Drive
 
 from url_tricks import GoogleUrlTricks
@@ -29,7 +29,7 @@ gut.web_viewer_drive_url("https://drive.google.com/file/d/<some_code_from_google
 
 #### Google Docs Previewable URL
 
-```pycon
+```python
 # Gives a previewable url of a shared url in Google Docs
 
 from url_tricks import GoogleUrlTricks
