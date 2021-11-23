@@ -9,6 +9,8 @@ __author__ = "Banura Randika Perera"
 __email__ = "randika.banura@gmail.com"
 __status__ = "planning"
 
+from urllib.parse import urlparse
+
 
 class GoogleUrlTricks:
     """
@@ -28,7 +30,13 @@ class GoogleUrlTricks:
         """
 
         try:
-            resource_id = url.split("/")[5]
+            url_scheme = urlparse(url).scheme
+
+            if url_scheme is None or url_scheme == '':
+                resource_id = url.split("/")[3]
+            else:
+                resource_id = url.split("/")[5]
+
             return f"https://drive.google.com/uc?id={resource_id}"
         except (RuntimeError, IndexError):
             return None
@@ -41,7 +49,13 @@ class GoogleUrlTricks:
         """
 
         try:
-            resource_id = url.split("/")[5]
+            url_scheme = urlparse(url).scheme
+
+            if url_scheme is None or url_scheme == '':
+                resource_id = url.split("/")[3]
+            else:
+                resource_id = url.split("/")[5]
+
             return f"https://docs.google.com/viewer?url={resource_id}"
         except (RuntimeError, IndexError):
             return None
