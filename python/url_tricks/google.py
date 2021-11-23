@@ -38,7 +38,7 @@ class GoogleUrlTricks:
                 resource_id = url.split("/")[5]
 
             return f"https://drive.google.com/uc?id={resource_id}"
-        except (RuntimeError, IndexError):
+        except Exception:
             return None
 
     def web_viewer_drive_url(self, url: str):
@@ -57,7 +57,7 @@ class GoogleUrlTricks:
                 resource_id = url.split("/")[5]
 
             return f"https://docs.google.com/viewer?url={resource_id}"
-        except (RuntimeError, IndexError):
+        except Exception:
             return None
 
     def previewable_docs_url(self, url: str):
@@ -71,7 +71,7 @@ class GoogleUrlTricks:
             split_url = url.split("/")
             main_url = "/".join(split_url[:6])
             return f"{main_url}/preview"
-        except (RuntimeError, IndexError):
+        except Exception:
             return None
 
     def templatable_docs_url(self, url: str):
@@ -85,7 +85,7 @@ class GoogleUrlTricks:
             split_url = url.split("/")
             main_url = "/".join(split_url[:6])
             return f"{main_url}/template/preview"
-        except (RuntimeError, IndexError):
+        except Exception:
             return None
 
     def exportable_docs_url(self, url: str, export_type: str = "pdf"):
@@ -100,7 +100,7 @@ class GoogleUrlTricks:
             split_url = url.split("/")
             main_url = "/".join(split_url[:6])
             return f"{main_url}/export?format={export_type}"
-        except (RuntimeError, IndexError):
+        except Exception:
             return None
 
     def exportable_sheets_url(self, url: str, export_type: str = "pdf"):

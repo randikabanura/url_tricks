@@ -31,7 +31,7 @@ class YoutubeUrlTricks:
         """
         try:
             return f"{url}&t={time_in_seconds}"
-        except (RuntimeError, IndexError):
+        except Exception:
             return None
 
     def thumbnail_url(self, url: str):
@@ -44,5 +44,5 @@ class YoutubeUrlTricks:
             parsed_url = urlparse(url)
             video_id = parse_qs(parsed_url.query)['v'][0]
             return f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
-        except (RuntimeError, IndexError):
+        except Exception:
             return None
