@@ -34,6 +34,22 @@ gut.templatable_docs_url("https://docs.google.com/document/d/<some_code_from_goo
 gut.exportable_docs_url("https://docs.google.com/document/d/<some_code_from_google_docs>/edit", "odt")
 ```
 
+### Youtube
+
+```python
+# Youtube current time URL
+# Gives a current time url of a url in Youtube video
+
+from url_tricks import YoutubeUrlTricks
+yut = YoutubeUrlTricks()
+
+yut.current_time_url("https://www.youtube.com/watch?v=<video_id>", 150)
+
+# Youtube thumbnail URL
+# Gives a thumbnail url of a url in Youtube video
+yut.thumbnail_url("https://www.youtube.com/watch?v=<video_id>")
+```
+
 ## Developer
 
 Name: [Banura Randika Perera](https://github.com/randikabanura) <br/>
