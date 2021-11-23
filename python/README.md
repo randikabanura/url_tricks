@@ -13,11 +13,11 @@ Tricks that can be done with urls of popular sites. Currently, under development
 from url_tricks import GoogleUrlTricks
 gut = GoogleUrlTricks()
 
-gut.downloadable_drive_url("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing"
+gut.downloadable_drive_url("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing")
 
 # Google Drive Web Viewer URL
 # Gives a web viewer url of a shared url in Google Drive
-gut.web_viewer_drive_url("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing"
+gut.web_viewer_drive_url("https://drive.google.com/file/d/<some_code_from_google_drive>/view?usp=sharing")
 
 # Google Docs Previewable URL
 # Gives a previewable url of a shared url in Google Docs
