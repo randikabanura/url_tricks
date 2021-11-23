@@ -23,7 +23,7 @@ setup(
     license='MIT',
     long_description=long_description,
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['urllib'],
     keywords=['python', 'tricks', 'url', 'string', 'manipulation', 'fun'],
     classifiers=[
         "Development Status :: 1 - Planning",

@@ -1,7 +1,8 @@
+
 """
-This module implements the main functionality of url tricks for python package.
+This module implements the main Google functionality of url tricks for python package.
 Author: Banura Randika Perera
-Gothub: https://github.com/randikabanura
+Github: https://github.com/randikabanura
 """
 
 __author__ = "Banura Randika Perera"
